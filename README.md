@@ -4,4 +4,4 @@ The Uuers can search for countries, filter by region, and view detailed informat
 
 Technologies used : - **HTML, CSS, and Vanilla JavaScript**
 
-Webiste link:- https://restcountriesapi2025.netlify.app/
+Website link:- https://restcountriesapi2025.netlify.app/
