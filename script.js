@@ -24,7 +24,7 @@ fetch(url)
 
         searchFilter.addEventListener("input", function (e) {
             const searchedCountries = countries.filter(country =>
-                country.name.common.toLowerCase().includes(e.target.value)
+                country.name.common.toLowerCase().includes(e.target.value.toLowerCase())
             );
             renderCountries(searchedCountries);
         });
