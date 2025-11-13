@@ -19,6 +19,7 @@ fetch(url)
             );
             renderCountries(filteredCountries);
             filterByRegion.blur();
+            if (searchFilter.value) searchFilter.value = "";
             clearFilter.classList.add("active");
         });
 
@@ -33,6 +34,7 @@ fetch(url)
             clearFilter.classList.remove("active");
             filterByRegion.value = "Filter by Region";
             filterByRegion.blur();
+            if (searchFilter.value) searchFilter.value = "";
             renderCountries(countries);
         });
     })
