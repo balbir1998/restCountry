@@ -9,7 +9,6 @@ const domain = document.querySelector(".domain");
 const currency = document.querySelector(".currency");
 const languages = document.querySelector(".languages");
 const borderCountries = document.querySelector(".border-countries-name");
-const darkModeBtn = document.querySelector(".dark-mode");
 
 window.onload = document.body.style.visibility = "unset";
 
